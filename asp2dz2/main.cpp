@@ -719,7 +719,7 @@ int main() {
                 }
                 cout << "Unesite C_ID (primarni kljuc klijenta):";
                 cin >> client;
-                table.open(R"(INSERT_CUSTOMER_PATH_HERE(with double backslashes))"); //!!! dodaj putanju do tabele CUSTOMER npr. C:\\Users\\...\\CLionProjects\\CustomerAccount20
+                table.open(R"(asp2dz2//Customer)"); //!!! dodaj putanju do tabele CUSTOMER 
                 if( ! table.is_open() ) {
                     exit(1);
                 }
