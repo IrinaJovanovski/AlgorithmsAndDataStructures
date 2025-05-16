@@ -427,7 +427,7 @@ int main() {
         }else if(i == 7){
             deleteGraph(indices,edges,list);
         }else if(i == 8){
-            FILE *in = fopen("C:\\...\\mine","r"); //! ubaciti putanju do fajla mine
+            FILE *in = fopen("asp2dz3//mine","r"); //! ubaciti putanju do fajla mine
             if(!in){
                 printf("sh");
             }
